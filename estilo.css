@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+}
+.topo{
+  width:100vw;
+  height: 10vh;
+  padding-top: 7vh;
+  color:#83bdf9;
+  background-color: #CF7279;
+}
+#nomes{
+  color: #ffff;
+  background-size: cover;
+   transition: all .3s;
+}
+#nomes:hover{
+ -webkit-transform: scale(2.5);
+    transform: scale(2.5); 
+    border-radius: 2px;
+    color:#83bdf9 ;
+}
+#perfil{
+  width: 13vh;
+  height: 12vh;
+  margin-top: -6vh;
+  margin-left: 5vh;
+  border-radius: 50%;
+  background-image: url('ryllc.jpeg');
+  background-size: cover;
+   transition: all .5s;
+ 
+}
+#perfil:hover{
+  -webkit-transform: scale(2.5);
+  transform: scale(1.7); 
+  border-radius: 70px;
+}
+.menu{
+  float: left;
+  width: 24vw;
+  min-height: 73vh;
+  text-align: center;
+  color: #000080;
+ }
+
+a {
+   position: relative;
+   text-decoration: none;
+   color: #000080;
+   transition: all 0.5s;
+   
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration: #ffff;
+  background-color: #83bdf9;
+  color: #ffff;
+  -webkit-transform: scale(1.5);
+   transform: scale(1.5);
+}
+#conteudo{
+  text-align: center;
+  min-height: 73vh;
+  background-color:#ffff;
+  margin-left: 24vw;
+  color:#000080;
+}
+
+.table{
+  background-color: lightgoldenrodyellow;
+  display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: black;
+    
+}
+.pe{
+  width: 100vw;
+  height: 2vh;
+  padding-top: 8vh ;
+  float: left;
+}
+.center{
+  text-align: center;
+  background-color: #e117b087;
+}
+.zulao{
+  background-color:#000080;
+}
+.preto{
+  background-color: #83bdf978;
+  height: 68vh;
+
+
+}
